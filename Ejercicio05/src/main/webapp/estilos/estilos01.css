@@ -1,0 +1,13 @@
+body{
+	margin:10px;
+}
+
+.titulo{
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.titulo button {
+	font-weight: bold;
+}
