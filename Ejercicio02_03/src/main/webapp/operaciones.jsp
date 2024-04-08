@@ -32,6 +32,7 @@
 		} else if(accion.equals("btnEliminar") && validarCamposVacios(codigo)){
 			ArregloCursos.eliminarCurso(codigo);
 		}
-		response.sendRedirect("Inicio.jsp");
+		
+		response.sendRedirect("Registro.jsp");
 	}
 %>
